@@ -1,0 +1,109 @@
+{
+    "trading": {
+        "default_lot": 0.1,
+        "timeframes": ["M5", "M15", "M30", "H1", "H4", "D1"],
+        "default_timeframe": "M15",
+        "risk_percent": 2.0,
+        "max_positions": 1,
+        "min_rr_ratio": 2.0,
+        "max_spread": 50,
+        "trailing_stop": 30,
+        "break_even": 20
+    },
+    "fibonacci": {
+        "period": 20,
+        "min_trend_percent": 2.0,
+        "retracement_levels": [0.382, 0.5, 0.618],
+        "extension_levels": [1.272, 1.618],
+        "reversal_zone": 0.1
+    },
+    "analysis": {
+        "rsi_period": 14,
+        "rsi_overbought": 70,
+        "rsi_oversold": 30,
+        "ma_fast": 9,
+        "ma_medium": 21,
+        "ma_slow": 50,
+        "ma_trend": 200,
+        "macd_fast": 12,
+        "macd_slow": 26,
+        "macd_signal": 9,
+        "bb_period": 20,
+        "bb_deviation": 2.0,
+        "atr_period": 14,
+        "volume_ma": 20
+    },
+    "market_hours": {
+        "open": {
+            "hour": 9,
+            "minute": 0
+        },
+        "close": {
+            "hour": 17,
+            "minute": 30
+        },
+        "pre_market": {
+            "hour": 8,
+            "minute": 45
+        },
+        "post_market": {
+            "hour": 17,
+            "minute": 45
+        }
+    },
+    "ui": {
+        "colors": {
+            "bg_dark": "#0A0E17",
+            "bg_medium": "#151B28",
+            "bg_light": "#1E2738",
+            "accent": "#00B8D4",
+            "accent_hover": "#00E5FF",
+            "success": "#00BFA5",
+            "warning": "#FFB300",
+            "danger": "#FF3D00",
+            "text": "#FFFFFF",
+            "text_secondary": "#B0BEC5"
+        },
+        "fonts": {
+            "family": "Helvetica",
+            "sizes": {
+                "title": 24,
+                "subtitle": 16,
+                "normal": 12,
+                "small": 10
+            }
+        },
+        "window": {
+            "width": 1200,
+            "height": 800,
+            "min_width": 800,
+            "min_height": 600
+        },
+        "padding": {
+            "small": 5,
+            "medium": 10,
+            "large": 20
+        }
+    },
+    "logging": {
+        "max_lines": 1000,
+        "auto_scroll": true,
+        "timestamp_format": "%H:%M:%S.%f",
+        "file_format": "%Y%m%d",
+        "levels": {
+            "debug": 10,
+            "info": 20,
+            "warning": 30,
+            "error": 40,
+            "critical": 50
+        }
+    },
+    "system": {
+        "name": "Future MT5 Pro Trading",
+        "version": "2.0.0",
+        "author": "BLACKBOXAI",
+        "description": "Professional Fibonacci Trading System",
+        "website": "www.blackboxai.com",
+        "support_email": "support@blackboxai.com"
+    }
+}
